@@ -18,7 +18,7 @@ function App() {
 
 export default App;*/
 import React from 'react';
-import Solarsystemitinerary from './Solarsystemitinerary'; // Import the component
+import Solarsystemitinerary from './solarsystemitinerary'; // Import the component
 
 function App() {
   return (
