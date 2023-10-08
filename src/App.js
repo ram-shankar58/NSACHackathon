@@ -1,5 +1,5 @@
 // App.js
-import React from 'react';
+/*import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //import {Switch} from 'react-router-dom'
 import Home from './Home';
@@ -16,4 +16,18 @@ function App() {
   );
 }
 
+export default App;*/
+import React from 'react';
+import Solarsystemitinerary from './Solarsystemitinerary'; // Import the component
+
+function App() {
+  return (
+    <div className="App">
+      <Solarsystemitinerary /> {/* Use the component */}
+    </div>
+  );
+}
+
 export default App;
+
+
